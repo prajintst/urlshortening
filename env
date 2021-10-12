@@ -1,0 +1,9 @@
+PORT=8082
+DB_URL=jdbc:postgresql://localhost:5432/shorturl
+DB_USER=postgres
+DB_PASSWORD=root
+USER=user
+PASSWORD=password
+BASE_URL=http://localhost:8080/
+SWAGGER_BASE_URLS=http://localhost:8080/
+DELAY_IN_MIN=5
