@@ -49,8 +49,10 @@ public class ShortUrl {
 
 
     @Column(name = "created_at")
+    @JsonIgnore
     private Instant createdAt = Instant.now();
 
     @Column(name = "checked_at")
+    @JsonIgnore
     private Instant checkedAt = Instant.now();;
 }
