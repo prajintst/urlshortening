@@ -49,8 +49,8 @@ public class ShortUrl {
 
 
     @Column(name = "created_at")
-    private Instant createdAt;
+    private Instant createdAt = Instant.now();
 
     @Column(name = "checked_at")
-    private Instant checkedAt;
+    private Instant checkedAt = Instant.now();;
 }
